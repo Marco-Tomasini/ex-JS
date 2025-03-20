@@ -1,8 +1,7 @@
-let text2 = prompt("Digite uma palavra");
-
-
-function contarCaracteres(str) {
-    return str.length;
+function converterTemperatura() {
+    let tempC = prompt("Digite a temperatura em °C");
+    let tempF = (tempC * 1.8) + 32;
+    console.log("temperatura em °f = " + tempF);
   }
-  
-  console.log(text2 + " - " + contarCaracteres(text2) + " caracteres");
+
+converterTemperatura()

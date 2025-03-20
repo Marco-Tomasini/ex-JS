@@ -1,8 +1,16 @@
-let text2 = prompt("Digite uma palavra");
+let pn = prompt("Digite um nº");
 
 
-function contarCaracteres(str) {
-    return str.length;
+function verificarSinal(pn) {
+    if (pn < 0) {
+      console.log("O nº é negativo")
+    }
+    else if (pn > 0) {
+      console.log("O nº é positivo")
+    }
+    else {
+      console.log("O nº é 0, logo, neutro")
+    }
   }
-  
-  console.log(text2 + " - " + contarCaracteres(text2) + " caracteres");
+
+  verificarSinal(pn)

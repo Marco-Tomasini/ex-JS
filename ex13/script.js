@@ -1,8 +1,9 @@
-let text2 = prompt("Digite uma palavra");
+let i = 1;
+let som = 0
 
+while(i <= 100) {
+  som == parseInt(i) + parseInt(som)
+  i++
+}
 
-function contarCaracteres(str) {
-    return str.length;
-  }
-  
-  console.log(text2 + " - " + contarCaracteres(text2) + " caracteres");
+console.log(som)
