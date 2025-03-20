@@ -62,4 +62,42 @@ function contarCaracteres(str) {
 
 
 
-  
+  let carro = {
+    marca: prompt("Digite a marca do carro"),
+    modelo: prompt("Digite o modelo do carro"),
+    ano: prompt("Digite o ano do carro"),
+    modelcar: function() {
+        console.log("O modelo do carro é" + this.modelo);
+    }
+}
+
+carro.modelcar()
+
+
+
+
+function mensagemPersonalizada() {
+    let nomeP = prompt("Digite seu nome");
+    let mensagem = "olá ";
+    console.log(mensagem + nomeP)
+}
+
+mensagemPersonalizada()
+
+
+
+
+let no1 = prompt("Digite uma nota");
+let no2 = prompt("Digite outra nota");
+let no3 = prompt("Digite outra nota");
+
+function mediaA(){
+    let media = (parseInt(no1) + parseInt(no2) + parseInt(no3)) / 3;
+    console.log("A média aritmética dessas 3 notas é: " + media.toFixed(2));
+}
+
+mediaA()
+
+
+
+

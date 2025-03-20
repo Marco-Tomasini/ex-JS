@@ -7,4 +7,4 @@ let carro = {
     }
 }
 
-carro.modelcar
+carro.modelcar()
