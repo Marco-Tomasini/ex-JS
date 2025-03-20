@@ -1,11 +1,14 @@
-let i = prompt("Digite um Nº");
+function palinCheck() {
+    let palin = prompt("Digite uma palavra");
+    let comp = palin;
+    let inverted = (comp.split('').reverse().join(''));
 
-function par_impar() {
-    if (i % 2 == 0) {
-        console.log("O nº é par");
-    } else {
-        console.log("O nº é impar");
+    if (palin == inverted) {
+        console.log("a palavra " + palin + " é uma palavra Palíndroma ");
+    }
+    else {
+        console.log("a palavra " + palin + " NÃO é uma palavra Palíndroma ");
     }
 }
 
-par_impar();
+palinCheck();
