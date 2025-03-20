@@ -1,3 +1,4 @@
+//ex1
 let i = prompt("Digite um Nº");
 
 function par_impar() {
@@ -12,7 +13,7 @@ par_impar();
 
 
 
-
+//ex2
 let n1 = prompt("Digite um Nº");
 let n2 = prompt("Digite outro Nº");
 
@@ -28,17 +29,17 @@ calcular();
 
 
 
+//ex3
+let j1 = 10;
 
-let j = 10;
-
-while (j > 0) {
+while (j1 > 0) {
     console.log(i);
-    j--;
+    j1--;
 }
 
 
 
-
+//ex4
 let text = prompt("Digite uma palavra");
 
 function invertertexto() {
@@ -49,9 +50,8 @@ invertertexto();
 
 
 
-
+//ex5
 let text2 = prompt("Digite uma palavra");
-
 
 function contarCaracteres(str) {
     return str.length;
@@ -61,7 +61,7 @@ function contarCaracteres(str) {
 
 
 
-
+//ex6
   let carro = {
     marca: prompt("Digite a marca do carro"),
     modelo: prompt("Digite o modelo do carro"),
@@ -71,33 +71,58 @@ function contarCaracteres(str) {
     }
 }
 
-carro.modelcar()
+carro.modelcar();
 
 
 
-
+//ex7
 function mensagemPersonalizada() {
     let nomeP = prompt("Digite seu nome");
     let mensagem = "olá ";
     console.log(mensagem + nomeP)
 }
 
-mensagemPersonalizada()
+mensagemPersonalizada();
 
 
 
-
-let no1 = prompt("Digite uma nota");
-let no2 = prompt("Digite outra nota");
-let no3 = prompt("Digite outra nota");
-
+//ex8
 function mediaA(){
+    let no1 = prompt("Digite uma nota");
+    let no2 = prompt("Digite outra nota");
+    let no3 = prompt("Digite outra nota");
+
     let media = (parseInt(no1) + parseInt(no2) + parseInt(no3)) / 3;
     console.log("A média aritmética dessas 3 notas é: " + media.toFixed(2));
 }
 
-mediaA()
+mediaA();
 
 
 
+//ex9
+let m3 = [];
+let n3 = [];
+let j = 0;
+let t = 0;
 
+for (let f = 1; f <= 20; f++) {
+    if(f % 3 == 0) {
+
+        m3[j] = f;
+        j++;
+    } 
+
+    else{
+        n3[t] = f;
+        t++;
+    }
+
+}
+
+function tabelas () {
+    console.log("nºs múltiplos de 3: " + m3);
+    console.log("nºs não múltiplos de 3: " + n3);
+}
+
+tabelas ();
