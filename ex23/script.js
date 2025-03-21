@@ -1,8 +1,17 @@
-let text2 = prompt("Digite uma palavra");
+let p = 1;
+let parw = [];
+let contw = 0;
 
-
-function contarCaracteres(str) {
-    return str.length;
+function pares(p){
+while (p <= 20){
+  if (p % 2 == 0){
+    parw[contw] = p;
+    contw++
   }
+  p++
+}
+
+console.log("n°s pares: " + parw);
+}
   
-  console.log(text2 + " - " + contarCaracteres(text2) + " caracteres");
+pares(p);

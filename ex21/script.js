@@ -1,8 +1,7 @@
-let text2 = prompt("Digite uma palavra");
+let array = [5, 3, 9];
 
+function somarArray(){
+  console.log(array.reduce((partialSum, a) => partialSum + a, 0));
+}
 
-function contarCaracteres(str) {
-    return str.length;
-  }
-  
-  console.log(text2 + " - " + contarCaracteres(text2) + " caracteres");
+somarArray(array);

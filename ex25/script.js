@@ -1,8 +1,13 @@
-let text2 = prompt("Digite uma palavra");
+let ano =prompt("Qual o ano?");
 
-
-function contarCaracteres(str) {
-    return str.length;
+function anoBissexto() {
+  if (ano % 4 == 0 && ano % 100 != 0){
+      console.log(ano, 'é ano bissexto');
   }
-  
-  console.log(text2 + " - " + contarCaracteres(text2) + " caracteres");
+  else{
+      console.log(ano, 'não é ano bissexto');
+
+  }
+}
+
+anoBissexto(ano);

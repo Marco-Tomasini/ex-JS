@@ -1,8 +1,7 @@
-let text2 = prompt("Digite uma palavra");
+let numero = prompt("Qual o número?");
 
+function dobrarNumero(){
+  console.log(numero * 2);
+}
 
-function contarCaracteres(str) {
-    return str.length;
-  }
-  
-  console.log(text2 + " - " + contarCaracteres(text2) + " caracteres");
+dobrarNumero(numero);

@@ -1,8 +1,7 @@
-let text2 = prompt("Digite uma palavra");
+let minus = prompt("Qual a palavra em letras minúsculas?");
 
+function capitalizar(){
+  console.log(String(minus[0]).toUpperCase() + String(minus).slice(1));
+}
 
-function contarCaracteres(str) {
-    return str.length;
-  }
-  
-  console.log(text2 + " - " + contarCaracteres(text2) + " caracteres");
+capitalizar(minus);
