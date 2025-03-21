@@ -1,9 +1,9 @@
 let i = 1;
-let som = 0
+let som = 0;
 
-while(i <= 100) {
-  som == parseInt(i) + parseInt(som)
-  i++
+while (i <= 100) {
+  som = i + som;
+  i++;
 }
 
-console.log(som)
+console.log(som);
