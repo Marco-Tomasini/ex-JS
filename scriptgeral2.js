@@ -43,3 +43,34 @@ console.log(som);
 
 
 //ex14
+let text2 = prompt("Digite uma palavra");
+
+
+function contarCaracteres(str) {
+    return str.length;
+  }
+  
+  console.log(text2 + " - " + contarCaracteres(text2) + " caracteres");
+
+
+
+  //ex15
+  let str = prompt("Digite uma palavra");
+
+
+function verificarTamanho (str) {
+  
+    if(str.length > 10) {
+      console.log("Tem mais de 10 caracteres aí");
+    }
+    else{
+      console.log("Tem menos de 10 caracteres aí");
+    }
+  }
+
+  verificarTamanho (str);
+
+
+
+  //ex16
+  

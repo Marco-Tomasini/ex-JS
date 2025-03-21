@@ -1,8 +1,14 @@
-let text2 = prompt("Digite uma palavra");
+let str = prompt("Digite uma palavra");
 
 
-function contarCaracteres(str) {
-    return str.length;
-  }
+function verificarTamanho (str) {
   
-  console.log(text2 + " - " + contarCaracteres(text2) + " caracteres");
+    if(str.length > 10) {
+      console.log("Tem mais de 10 caracteres aí");
+    }
+    else{
+      console.log("Tem menos de 10 caracteres aí");
+    }
+  }
+
+  verificarTamanho (str);
