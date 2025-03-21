@@ -1,8 +1,9 @@
-let text2 = prompt("Digite uma palavra");
+let nome = prompt("Digite seu nome");
 
 
-function contarCaracteres(str) {
-    return str.length;
+
+function saudacao (nome, saudacao = "bem vindo(a)") {
+    console.log(saudacao, nome);
   }
-  
-  console.log(text2 + " - " + contarCaracteres(text2) + " caracteres");
+
+  saudacao(nome);

@@ -1,8 +1,3 @@
-let text2 = prompt("Digite uma palavra");
+const fruta = ["maça", "banana", "fruta do dragão", "abacate", "morango"];
 
-
-function contarCaracteres(str) {
-    return str.length;
-  }
-  
-  console.log(text2 + " - " + contarCaracteres(text2) + " caracteres");
+console.log(fruta[2]);

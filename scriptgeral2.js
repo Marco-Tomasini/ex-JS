@@ -73,4 +73,24 @@ function verificarTamanho (str) {
 
 
   //ex16
+  const fruta = ["maça", "banana", "fruta do dragão", "abacate", "morango"];
+
+  console.log(fruta[2]);
+
+
+
+  //ex17
+  let nome = prompt("Digite seu nome");
+
+
+
+function saudacao (nome, saudacao = "bem vindo(a)") {
+    console.log(saudacao, nome);
+  }
+
+  saudacao(nome);
+
+
+
+  //ex18
   
