@@ -1,8 +1,13 @@
-let text2 = prompt("Digite uma palavra");
+let nos = prompt("Digite sua nota final");
 
 
-function contarCaracteres(str) {
-    return str.length;
+function verificarAprovacao (nos) {
+    if(nos >= 6){
+      console.log("aprovado(a)");
+    }
+    else{
+      console.log("reprovado(a)");
+    }
   }
   
-  console.log(text2 + " - " + contarCaracteres(text2) + " caracteres");
+  verificarAprovacao (nos);

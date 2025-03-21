@@ -93,4 +93,36 @@ function saudacao (nome, saudacao = "bem vindo(a)") {
 
 
   //ex18
+  let nos = prompt("Digite sua nota final");
+
+
+function verificarAprovacao (nos) {
+    if(nos >= 6){
+      console.log("aprovado(a)");
+    }
+    else{
+      console.log("reprovado(a)");
+    }
+  }
   
+  verificarAprovacao (nos);
+
+
+
+  //ex19
+  let par = [];
+  let cont = 0;
+
+
+for (let num = 0; num <= 30; num++) {
+  if(num % 2 == 0) {
+    par[cont] = num;
+    cont++;
+  }
+}
+
+console.log("n°s pares: ", par);
+
+
+
+//ex20

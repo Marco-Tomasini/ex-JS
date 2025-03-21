@@ -1,8 +1,12 @@
-let text2 = prompt("Digite uma palavra");
+let par = [];
+let i = 0;
 
 
-function contarCaracteres(str) {
-    return str.length;
+for (let num = 0; num <= 30; num++) {
+  if(num % 2 == 0) {
+    par[i] = num;
+    i++;
   }
-  
-  console.log(text2 + " - " + contarCaracteres(text2) + " caracteres");
+}
+
+console.log("n°s pares: ", par);
